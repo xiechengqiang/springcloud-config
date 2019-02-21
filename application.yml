@@ -9,11 +9,6 @@ spring:
     name: springcloud-config-dev
 ---
 spring:
-  profiles: pro #生产环境
-  application:
-    name: springcloud-config-pro
----
-spring:
   profiles: test #测试环境
   application:
     name: springcloud-config-test
